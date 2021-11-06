@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.zml'
+version '1.0'
+
+repositories {
+    maven {
+        url 'https://maven.aliyun.com/repository/public/'
+    }
+    maven {
+        url 'https://maven.aliyun.com/repository/spring/'
+    }
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly('eu.agno3.jcifs:jcifs-ng:2.1.6')
+    compileOnly('org.springframework.boot:spring-boot-autoconfigure:2.2.7.RELEASE')
+    compileOnly "org.springframework.boot:spring-boot-configuration-processor:2.2.7.RELEASE"
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor:2.2.7.RELEASE"
+}
