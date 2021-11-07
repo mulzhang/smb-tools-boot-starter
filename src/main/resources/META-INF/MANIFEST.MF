@@ -3,8 +3,8 @@ Implementation-Title: smb-tools-boot-starter
 Implementation-Version: 1.0
 Archiver-Version: Plexus Archiver
 Built-By: ZhangMuLiang
-Implementation-Vendor-Id: org.mlz
-Created-By: gradle-7.2-bin.zip
+Implementation-Vendor-Id: pers.mlz
+Created-By: gradle-7.2-bin
 Build-Jdk: 1.8.0_241
 Implementation-URL: ""
 Implementation-Vendor: mlz

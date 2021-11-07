@@ -1,4 +1,4 @@
-package org.mlz.config;
+package pers.mlz.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

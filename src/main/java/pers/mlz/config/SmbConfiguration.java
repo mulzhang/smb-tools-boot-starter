@@ -1,4 +1,4 @@
-package org.mlz.config;
+package pers.mlz.config;
 
 import jcifs.CIFSContext;
 import jcifs.CIFSException;
@@ -34,9 +34,7 @@ public class SmbConfiguration {
 
     /**
      * 密码验证
-     *
-     * @return
-     * @throws CIFSException
+     * @return 获取验证对象
      */
     @Bean
     public CIFSContext getAuth() throws CIFSException {
